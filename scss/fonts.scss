@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+body{
+    font-family: 'ABeeZee', sans-serif;
+}
+
+h1{
+    font-size: 4cm;
+    letter-spacing: 5px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+header{
+    h2{
+    font-size: 60px; 
+    font-style: italic;
+    font-family: 'Outfit', sans-serif;
+    }
+}
+
+h3{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+nav{
+    font-family: 'Outfit', sans-serif;
+
+    h2{
+        font-size: 90px;
+        text-decoration-line: underline;
+    }
+
+    div{
+        font-size: 35px;
+    }
+}
+
+.bodyItem{
+    font-size: 30px;
+}
+
+footer{
+    font-size: 40px;
+}
+
+.mail{
+    font-size: 60px;
+    text-decoration-line: underline;
+}

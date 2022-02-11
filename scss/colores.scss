@@ -1,0 +1,47 @@
+
+
+$borde: 5px solid rgb(124, 6, 6);
+
+body{
+    background-image: radial-gradient(rgb(10, 107, 10), rgb(7, 121, 105));
+}
+
+header{
+    border: $borde;
+    color:rgb(29, 0, 82);
+}
+
+nav{
+
+    h2{
+        color:rgb(29, 0, 109);
+    }
+
+    div{
+        background-color: rgb(184, 87, 48);
+        color: rgb(30, 173, 240);
+        border: 5px solid black;
+    }
+}
+
+main{
+    border: $borde;
+}
+
+#dato{
+    border: $borde;
+}
+
+#sedes{
+    color: black;
+}
+
+aside{
+    border: $borde;
+}
+
+footer{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}

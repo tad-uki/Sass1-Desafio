@@ -1,0 +1,40 @@
+nav{
+
+    div{
+        transition: 0.5s;
+
+        &:hover{
+            padding: 20px;
+            font-size: 35px;
+            color: rgb(240, 134, 47);
+            background-color: rgb(160, 3, 160);
+            font-weight: 900;
+        }
+    }
+}
+
+footer{
+    div{
+        animation-name: footer;
+        animation-iteration-count: 1;
+        animation-duration: 5s;
+        animation-delay: 0s;
+    }
+}
+
+.mail{
+    animation-name: footer;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+@keyframes footer{
+    from{
+        transform: translateX(-500px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}   
